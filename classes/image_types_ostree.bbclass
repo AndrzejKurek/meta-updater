@@ -1,7 +1,7 @@
 # OSTree deployment
 inherit features_check
 
-REQUIRED_DISTRO_FEATURES = "usrmerge"
+#REQUIRED_DISTRO_FEATURES = "usrmerge"
 
 OSTREE_ROOTFS ??= "${WORKDIR}/ostree-rootfs"
 OSTREE_COMMIT_SUBJECT ??= "Commit-id: ${IMAGE_NAME}"
